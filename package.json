@@ -1,0 +1,40 @@
+{
+  "name": "chain-lens",
+  "version": "1.0.0",
+  "description": "Bitcoin transaction and block analyzer",
+  "main": "dist/cli/index.js",
+  "scripts": {
+    "build": "tsc && vite build",
+    "build:server": "tsc",
+    "build:web": "vite build",
+    "start": "node dist/cli/index.js",
+    "start:web": "node dist/web/server.js",
+    "dev:web": "vite"
+  },
+  "keywords": [
+    "bitcoin",
+    "transaction",
+    "parser",
+    "analyzer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bech32": "^2.0.0",
+    "bs58check": "^3.0.1",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^20.11.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "typescript": "^5.3.3",
+    "vite": "^7.3.1"
+  }
+}
