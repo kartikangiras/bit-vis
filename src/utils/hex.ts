@@ -1,5 +1,4 @@
 export function hexToBytes(hex: string): Uint8Array {
-  // Strip any whitespace (spaces, newlines, tabs) from copy-paste
   hex = hex.replace(/\s+/g, '');
   if (hex.length % 2 !== 0) {
     throw new Error('Invalid hex string length');
