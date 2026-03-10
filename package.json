@@ -1,5 +1,5 @@
 {
-  "name": "chain-lens",
+  "name": "bit-vis",
   "version": "1.0.0",
   "description": "Bitcoin transaction and block analyzer",
   "main": "dist/cli/index.js",
